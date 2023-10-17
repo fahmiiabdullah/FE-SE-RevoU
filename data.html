@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+      .all-container {
+        display: flex;
+        justify-content: center;
+         
+      }
+
+      .main-container {
+        position: relative;
+        display: flex;
+        background-color: aliceblue;
+        margin-top: 85px;
+        width: 1000px;
+        border: 2px solid;
+        border-color: #256097fa;
+        border-radius: 10px;
+        box-shadow: 0 0 25px rgb(42, 85, 93);;
+
+        /* margin: 100px 0px 50px 140px; */
+        
+      }
+      
+      .main-container .h1 {
+        display: flex;
+        font-family: 'Poppins';
+        font-size: 18px;
+        margin-left: 350px;
+        margin-right: 50px;        
+      }
+
+      .main-container .photo {
+        margin-top: 30px;
+        display: flex;
+        margin-left: 550px;
+        margin-right: 50px;        
+      }
+
+      #photo {
+        width: 230px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      .container {
+        margin-top: 100px;
+        font-size: 8px;
+        margin-left: 20px;
+      }
+
+      h1 {
+        margin: 5px;
+      }
+
+
+
+
+    </style>
+</head>
+<body>
+        <!--ini header-->
+        <header>
+            <a href="#" class="logo-nbar">HARMON <span class="psi">Ψ</span> MIND      
+            </a>
+        
+            <ul class="menu-navbar">
+              <li><a href="Index.html" class="active">Home</a></li>
+              <li><a href="psikolog.html">Psychologist</a></li>
+              <li><a href="article.html">Article</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+            </ul>
+        
+            <div class="main-navbar">
+              <a href="login.html" class="user"><i class="ri-user-fill"></i>Log In</a>
+              <a href="login.html">Sign Up</a>
+              <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+          </header>
+
+
+          <div class="all-container">
+            <div class="main-container">
+              <img width="150" id="photo">
+              <div class="container">
+                <h1 class="data" c-atr="email">Email : </h1>
+                <h1 class="data" c-atr="name">Name : </h1>
+                <h1 class="data" c-atr="no_praktek">No Prak :</h1>
+                <h1 class="data" c-atr="pendidikan">Pendidikan :</h1>
+              </div>
+            </div>            
+          </div>
+
+
+          <!--javascript-->
+          <script src="js/navbar.js"></script>
+          <script type="text/javascript" src="js/ambil-data.js"></script>
+        <!--akhir header-->
+    
+</body>
+</html>
